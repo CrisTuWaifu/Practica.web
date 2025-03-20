@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ComisioNew: Artistas libres</title>
+
+<body>
+    <header>
+        <div class="logo">ComisioNew</div>
+        <a href="#1" class="register-btn">Registrarse</a>
+    </header>
+
+    <div class="container">
+        <h2>Registro</h2>
+        <form action="registro.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombrede usuario" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="password" name="password" placeholder="Confirmar contraseña" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+        <div class="contact">
+        <h2>¿Tienes problemas?</h2>
+        <a href="mailto:cristian.borboa212204@potros.itson.edu.mx">¡Contactanos!</a>
+</body>
+
+
+<style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        background {
+            .background-color: #B5B0AD;
+/* ayuda, no se pone el fondo gris */
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .register-btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .register-btn:hover {
+            background-color: #1e3a8a;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 100px auto; 
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .contact a:hover {
+            background: #0056b3;
+        }
+
+    </style>
+</head>
+</body>
+</html>
